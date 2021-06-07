@@ -1,0 +1,5 @@
+a = input()
+b = float(input())
+c = float(input())
+d = b + ((c/100) * 15)
+print("TOTAL = R$ %.2f" % d)

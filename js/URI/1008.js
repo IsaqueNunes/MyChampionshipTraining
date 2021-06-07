@@ -1,0 +1,9 @@
+var input = require('fs').readFileSync("URI/in", 'utf-8');
+var lines = input.split('\n');
+var a = parseInt(lines.shift());
+var b = parseInt(lines.shift());
+var c = parseFloat(lines.shift());
+var s = b * c;
+var sal = s.toFixed(2);
+console.log(`NUMBER = ${a}`);
+console.log(`SALARY = U$ ${sal}`);
